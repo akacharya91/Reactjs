@@ -1,0 +1,52 @@
+#cell {
+  white-space: pre;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.label_style{
+  margin-top: 10px;
+}
+.tbl_style{
+  display: flex;
+}
+.cell_style{
+/* width: 10px;
+height: 10px; */
+/* height: 8px;
+width: 30px;
+border-radius: 6px; */
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+text-indent: -99999px;
+/* color: white; */
+}
+
+
+
+.main_container {
+  height: 100vh;
+}
+.main_container .tbl_style{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.main_container .tbl_style .tbl_style_sub{
+  display: flex;
+  border-right: 1px solid #ededed;
+  padding: 0 15px;
+  height: 100%;
+  flex-direction: column;
+  flex: 1;
+}
+.main_container .tbl_style .tbl_style_sub:last-child{
+  border-right: none;
+}
+.main_container .tbl_style .tbl_style_sub .cell_style{
+  margin-top: 15px;
+}

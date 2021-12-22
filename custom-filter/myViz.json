@@ -1,0 +1,247 @@
+{
+  "data": [
+    {
+      "id": "concepts",
+      "label": "Concepts",
+      "elements": [
+        {
+          "id": "dimID",
+          "label": "Dimension",
+          "type": "DIMENSION",
+          "options": {
+            "min": 1,
+            "max": 100
+          }
+        },
+        {
+          "id": "maxResults",
+          "label": "Max Results",
+          "type": "MAX_RESULTS",
+          "options": {
+            "max": 100
+          }
+        }
+      ]
+    }
+  ],
+  "style": [
+    {
+      "id": "tablebody",
+      "label": "Table Data",
+      "elements": [
+        {
+          "id": "textfont",
+          "label": "Font",
+          "type": "FONT_FAMILY",
+          "defaultValue": "Arial"
+        },
+        {
+          "id": "textsize",
+          "label": "Text Size",
+          "type": "FONT_SIZE",
+          "defaultValue": 14
+        },
+        {
+          "id": "textcolor",
+          "label": "Text Color",
+          "type": "FONT_COLOR",
+          "defaultValue": "#000000"
+        }
+      ]
+    },
+    {
+      "id": "legendsetting",
+      "label": "Legend Setting",
+      "elements": [
+        {
+          "id": "legendheight",
+          "label":"Legend Height",
+          "type": "SELECT_SINGLE",
+          "defaultValue": 8,
+          "options": [
+            {
+              "label": "8px",
+              "value": "8"
+            },
+            {
+              "label": "10px",
+              "value": "10"
+            },
+            {
+              "label": "12px",
+              "value": "12"
+            },
+            {
+              "label": "15px",
+              "value": "15"
+            },
+            {
+              "label": "20px",
+              "value": "20"
+            },
+            {
+              "label": "25px",
+              "value": "25"
+            },
+            {
+              "label": "30px",
+              "value": "30"
+            },
+            {
+              "label": "35px",
+              "value": "35"
+            }
+          ]
+        },
+        {
+          "id": "legendwidth",
+          "label":"Legend Width",
+          "type": "SELECT_SINGLE",
+          "defaultValue": 30,
+          "options": [
+            {
+              "label": "20px",
+              "value": "10"
+            },
+            {
+              "label": "30px",
+              "value": "30"
+            },
+            {
+              "label": "40px",
+              "value": "40"
+            },
+            {
+              "label": "50px",
+              "value": "50"
+            },
+            {
+              "label": "60px",
+              "value": "60"
+            },
+            {
+              "label": "70px",
+              "value": "70"
+            },
+            {
+              "label": "80px",
+              "value": "80"
+            }
+          ]
+        },
+        {
+          "id": "legendborderradius",
+          "label":"Legend Border Radius",
+          "type": "SELECT_SINGLE",
+          "defaultValue": 6,
+          "options": [
+            {
+              "label": "6px",
+              "value": "6"
+            },
+            {
+              "label": "8px",
+              "value": "8"
+            },
+            {
+              "label": "10px",
+              "value": "10"
+            },
+            {
+              "label": "12px",
+              "value": "12"
+            },
+            {
+              "label": "14px",
+              "value": "14"
+            },
+            {
+              "label": "16px",
+              "value": "16"
+            },
+            {
+              "label": "18px",
+              "value": "18"
+            },
+            {
+              "label": "20px",
+              "value": "20"
+            }
+          ]
+        },
+        {
+          "id": "legendspacing",
+          "label":"Legend Spacing",
+          "type": "SELECT_SINGLE",
+          "defaultValue": 40,
+          "options": [
+            {
+              "label": "10px",
+              "value": "10"
+            },
+            {
+              "label": "20px",
+              "value": "20"
+            },
+            {
+              "label": "30px",
+              "value": "30"
+            },
+            {
+              "label": "40px",
+              "value": "40"
+            },
+            {
+              "label": "50px",
+              "value": "50"
+            },
+            {
+              "label": "60px",
+              "value": "60"
+            },
+            {
+              "label": "70px",
+              "value": "70"
+            },
+            {
+              "label": "80px",
+              "value": "80"
+            },
+            {
+              "label": "90px",
+              "value": "90"
+            },
+            {
+              "label": "100px",
+              "value": "100"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "legendcolor",
+      "label": "Legend Color",
+      "elements": [
+        {
+          "id": "legend_color1",
+          "label": "Legend Color1 (1)",
+          "type": "FILL_COLOR",
+          "defaultValue": "#AE0F09"
+        },
+        {
+          "id": "legend_color2",
+          "label": "Legend Color2 (0)",
+          "type": "FILL_COLOR",
+          "defaultValue": "#737A15"
+        },
+        {
+          "id": "legend_color3",
+          "label": "Legend Color3 (-1)",
+          "type": "FILL_COLOR",
+          "defaultValue": "#C0CCD8"
+        }
+      ]
+    }
+  ]
+}

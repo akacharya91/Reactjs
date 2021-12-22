@@ -1,0 +1,23 @@
+{
+    "name": "Legend Table",
+    "logoUrl": "",
+    "organization": "LearningMate",
+    "organizationUrl": "https://learningmate.com/",
+    "termsOfServiceUrl": "https://url",
+    "supportUrl": "https://url",
+    "packageUrl": "https://url",
+    "privacyPolicyUrl": "https://url",
+    "description": "Community Visualization",
+    "devMode": true,
+    "components": [{
+      "id": "legendtable3",
+      "name": "Legend table3",
+      "iconUrl": "https://storage.cloud.google.com/custom_visualization_ds/lmLogo.PNG",
+      "description": "Displays value of capsule fields.Rules are value:>0 =>Red,0 =>Green,-1 =>Gray",
+      "resource": {
+        "js": "gs://custom_visualization_ds/legend_table3/myViz.js",
+        "config": "gs://custom_visualization_ds/legend_table3/myViz.json",
+        "css": "gs://custom_visualization_ds/legend_table3/myViz.css"
+      }
+    }]
+}
